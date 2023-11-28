@@ -104,7 +104,7 @@
 			children = (
 				374FB3AA2B1437CC008A341F /* ContentView.swift */,
 				374FB3C12B143C66008A341F /* HomeView.swift */,
-				374FB3BF2B143C5A008A341F /* OnboardingView.swift */,
+				37B7AEF62B15D85800848181 /* Onboarding */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -113,9 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				374FB3C32B1447AD008A341F /* CircleGroupView.swift */,
-				37B7AEF02B15D31500848181 /* OnboardingHeaderView.swift */,
-				37B7AEF22B15D3A500848181 /* OnboardingCenterView.swift */,
-				37B7AEF42B15D4F500848181 /* OnboardingFooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,6 +123,17 @@
 				37B7AEEE2B15CAE800848181 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37B7AEF62B15D85800848181 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				374FB3BF2B143C5A008A341F /* OnboardingView.swift */,
+				37B7AEF02B15D31500848181 /* OnboardingHeaderView.swift */,
+				37B7AEF22B15D3A500848181 /* OnboardingCenterView.swift */,
+				37B7AEF42B15D4F500848181 /* OnboardingFooterView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
